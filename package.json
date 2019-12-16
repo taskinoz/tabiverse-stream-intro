@@ -1,0 +1,33 @@
+{
+  "name": "stream-intro",
+  "version": "1.0.0",
+  "description": "Download and modify the Tabiverse chrome extension to use as a Twitch stream intro",
+  "main": "index.js",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "unzip-crx": "^0.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taskinoz/tabiverse-stream-intro.git"
+  },
+  "keywords": [
+    "twitch",
+    "node",
+    "js",
+    "chrome",
+    "obs",
+    "html",
+    "3d"
+  ],
+  "author": "Tristan Kennedy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/taskinoz/tabiverse-stream-intro/issues"
+  },
+  "homepage": "https://github.com/taskinoz/tabiverse-stream-intro#readme"
+}
