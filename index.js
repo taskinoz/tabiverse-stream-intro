@@ -52,7 +52,7 @@ function editExtension() {
   Fixjs=Fixjs.replace('font-size:11vh;@media','font-size:5vh;@media');
   fs.writeFileSync("extension/index.min.js",Fixjs);
 
-  Fixcss=Fixcss+'[class*="Settings"],\n[class*="Rocket"],\n[class*="Social"],\n[class*="Share"]{\n\tdisplay: none;\n}'
+  Fixcss=Fixcss+'[class*="Settings"],\n[class*="Rocket"],\n[class*="Social"],\n[class*="Share"],\nsvg{\n\tdisplay: none !important;\n}'
   fs.writeFileSync("extension/bundle.css",Fixcss);
 
   // Remove downloaded extension
