@@ -4,7 +4,7 @@
   "description": "Download and modify the Tabiverse chrome extension to use as a Twitch stream intro",
   "main": "index.js",
   "dependencies": {
-    "cheerio": "^1.0.0-rc.3",
+    "cheerio": "^1.0.0-rc.12",
     "unzip-crx": "^0.2.0"
   },
   "devDependencies": {},
